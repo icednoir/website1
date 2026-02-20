@@ -629,6 +629,9 @@ section{
     header .btn-visit {
         display: none;
     }
+    .info-box h1 {
+        font-size: 1rem;
+    }
     .info-box h3 {
         font-size: 3rem;
     }
@@ -650,8 +653,11 @@ section{
     header #menu-icon {
         display: block;
     }
+    .info-box h1 {
+        font-size: 1rem;
+    }
     .info-box h3 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .nav-links{
         position: absolute;
