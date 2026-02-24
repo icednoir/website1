@@ -154,7 +154,7 @@ section{
     transition: background 0.2s;
     cursor: pointer;
 }
-.btn:visted {
+.btn:visited {
     color: black;
 }
 /* .btn:hover{
