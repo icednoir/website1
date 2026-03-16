@@ -173,6 +173,10 @@ section{
 .socials i:hover{
     transform: scale(1.1);
 }
+.socials a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .section-title{
     text-align: center;
