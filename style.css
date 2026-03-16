@@ -24,7 +24,10 @@ header {
     border-radius: 3rem;
     z-index: 1000;
 }
-
+.header img {
+    max-width: 60px;
+    border-radius: 50px;
+}
 .logo{
     color: white;
     font-size: 1.3rem;
