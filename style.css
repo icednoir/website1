@@ -649,9 +649,6 @@ section{
     header .btn-visit {
         display: none;
     }
-    .info-box h1 {
-        font-size: 1rem;
-    }
     .info-box h3 {
         font-size: 3rem;
     }
@@ -668,16 +665,19 @@ section{
     .experience-info {
         width: 70vw;
     }
+    .experience h2 {
+        font-size: 3rem;
+    }
+    .book-intro h1 {
+        font-size: 2.5rem;
+    }
 }
 @media(max-width: 600px){
     header #menu-icon {
         display: block;
     }
-    .info-box h1 {
-        font-size: 1rem;
-    }
     .info-box h3 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .nav-links{
         position: absolute;
@@ -715,6 +715,15 @@ section{
         width: 100%;
         height: auto;
         object-fit: cover;
+    }
+    .experience h2 {
+        font-size: 2.5rem;
+    }
+    .book-intro h1 {
+        font-size: 2.5rem;
+    }
+    .fav-books-title {
+        font-size: 1.5rem;
     }
 }
 
