@@ -25,7 +25,7 @@ header {
     z-index: 1000;
 }
 .header img {
-    max-width: 70px;
+    max-width: 50px;
     border-radius: 50px;
 }
 .logo{
