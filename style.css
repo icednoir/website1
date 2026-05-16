@@ -250,6 +250,7 @@ section{
 }
 .book-intro h1 {
     margin-top: 3rem;
+    font-family: 'Playfair Display', serif;
 }
 .book-intro p{
     font-size: 1.1rem;
@@ -778,6 +779,7 @@ section{
 .works-intro h1 {
     margin-top: 3rem;
     font-size: 3rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .works-intro p{
