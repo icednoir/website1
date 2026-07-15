@@ -184,7 +184,7 @@ section{
 .scroll-container{
     display: flex;
     justify-content: center;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .scroll-btn{
