@@ -1118,7 +1118,7 @@ section{
     align-items:center;
 }
 
-.category{
+.category {
     color:#777;
     text-transform:uppercase;
     letter-spacing:2px;
@@ -1126,32 +1126,32 @@ section{
     margin-bottom:20px;
 }
 
-.hero h1{
+.hero h1 {
     font-size:2.5rem;
     line-height:1.15;
     margin-bottom:25px;
 }
 
-.subtitle{
+.subtitle {
     font-size:18px;
     color:#555;
     margin-bottom:30px;
 }
 
-.info{
+.info {
     display:flex;
     flex-wrap:wrap;
     gap:20px;
     color:#666;
 }
 
-.hero-image img{
+.hero-image img {
     width:100%;
     border-radius:16px;
     box-shadow:0 20px 40px rgba(0,0,0,.12);
 }
 
-.video-container{
+.video-container {
     margin-top:30px;
     position:relative;
     overflow:hidden;
@@ -1160,31 +1160,31 @@ section{
     box-shadow:0 15px 35px rgba(0,0,0,.1);
 }
 
-.video-container iframe{
+.video-container iframe {
     position:absolute;
     inset:0;
     width:100%;
     height:100%;
 }
 
-h2{
+h2 {
     font-size:2rem;
     margin-bottom:30px;
 }
 
 .story p,
-.reflection p{
+.reflection p {
     font-size:17px;
     color:#555;
 }
 
-.tags{
+.tags {
     display:flex;
     flex-wrap:wrap;
     gap:15px;
 }
 
-.tags span{
+.tags span {
     padding:10px 18px;
     background:#111;
     color:white;
@@ -1192,11 +1192,11 @@ h2{
     font-size:15px;
 }
 
-.button-section{
+.button-section {
     text-align:center;
 }
 
-.button{
+.button {
     display:inline-block;
     text-decoration:none;
     background:#111;
@@ -1206,7 +1206,7 @@ h2{
     transition:.3s;
 }
 
-.button:hover{
+.button:hover {
     background:#444;
 }
 
@@ -1223,5 +1223,4 @@ h2{
 section{
     padding:40px 0;
 }
-
 }
