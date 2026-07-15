@@ -1103,7 +1103,7 @@ nav{
   background:#333;
 }
 
-.hero, .video {
+.project-section {
     width:min(1100px,90%);
     margin:auto;
     padding:50px 0;
