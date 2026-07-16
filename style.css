@@ -6,6 +6,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
+    outline: 1px solid red;
 }
 
 header {
@@ -28,6 +29,7 @@ header {
     max-width: 50px;
     border-radius: 50px;
 }
+
 .logo{
     color: white;
     font-size: 1.3rem;
@@ -96,22 +98,23 @@ li a:hover:hover::before {
 }
 
 section { 
-    width:100%;
-    position:relative;
+    min-height: 100vh;
+    padding: 10rem 12%;
+    width: 100%;
+    position: relative;
+
 }
 .about{
-    min-height:100vh;
-    padding:8rem 12%;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about .about-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    margin-top: 10rem;
 }
 .about img{
     width: 30vw;
@@ -139,12 +142,14 @@ section {
     display: flex;
     gap: 1rem;
 }
+
 .btn{
     display: inline-block;
     border-radius: 3rem;
     padding: 0.5rem 1.5rem;
     border: 2px solid black;
     font-weight: 500;
+    text-decoration: none;
     text-wrap: nowrap;
     transition: background 0.2s;
     cursor: pointer;
@@ -158,13 +163,14 @@ section {
     transition: background 0.2s;
     cursor: pointer;
 }
-.btn:visited {
-    color: black;
-}
 /* .btn:hover{
     background-color: black;
     color: white;
 } */
+.btn:visited {
+    color: black;
+}
+.healing-books-container
 .socials{
     display: flex;
     gap: 2rem;
@@ -174,6 +180,7 @@ section {
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
+
 .socials i:hover{
     transform: scale(1.1);
 }
@@ -185,7 +192,7 @@ section {
 .scroll-container{
     display: flex;
     justify-content: center;
-    margin: 20px 0 80px;
+    margin: 80px 0;
 }
 
 .scroll-btn{
@@ -277,16 +284,15 @@ section {
     margin-bottom: 5rem;
     font-size: 1.5rem;
 }
-.book-intro h1 {
-    margin-top: 3rem;
-    font-family: 'Playfair Display', serif;
-}
 .book-intro p{
     font-size: 1.1rem;
     width: 50%;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.book-intro h1 {
+    margin-top: 3rem;
 }
 .fav-books h2{
     text-align: center;
@@ -463,165 +469,6 @@ section {
     opacity: 0.6;
 }
 
-.container {
-    height: 140px;
-    width: 330px;
-    background: #c3e3e0;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container .music-img-box {
-    height: 120px;
-    width: 120px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    position: absolute;
-    top: -20px;
-    left: 20px;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container .music-img-box .music-img {
-    height: 80px;
-    width: 80px;
-    box-shadow: rgba(69, 166, 155, 0.15) 0px 5px 15px 0px;
-}
-
-.container .music-img-box .music-img img {
-    height: 100%;
-    width: 100%;
-    border-radius: 100%;
-}
-
-.container .music-img-box .centre-dot {
-    height: 15px;
-    width: 15px;
-    background: #fff;
-    border-radius: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.container .music-details {
-    position: absolute;
-    right: 0;
-    width: 185px;
-    height:70px;
-    padding: 5px;
-    padding-left: 10px;
-}
-
-.container .music-img-box .music-img img{
-    height: 80px;
-    width: 80px;
-    border: 1px solid black;
-}
-
-.container .music-details .artist-name {
-    font-size: 10px;
-    color: #45a69b;
-    position: relative;
-    top: 5px;
-}
-
-.container .music-details .music-name {
-    font-size: 11px;
-    font-weight: 300;
-    color: #45a69b;
-    white-space: nowrap;
-    margin-top: 2px;
-    position: relative;
-    top: 3px;
-}
-
-.container .music-details .progress-area {
-    height: 4px;
-    width: 160px;
-    background: #fff;
-    border-radius: 5px;
-    margin-top: 13px;
-    cursor: pointer;
-}
-
-.container .music-details .progress-area .progress-bar {
-    height: 4px;
-    width: 50%;
-    background: #45a69b;
-    border-radius: 5px;
-}
-
-.container .music-details .current-time, .container .music-details .total-time {
-    font-size: 10px;
-    color: #45a69b;
-    position: relative;
-    top: -5px;
-}
-
-.container .music-details .total-time{
-    left: 120px;
-}
-
-.container .btns-box {
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    border-radius: 10px;
-    background: #fff;
-}
-
-.container .btns-box .btns {
-    width: 140px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 30px;
-    bottom: 10px;
-}
-
-.container .btns-box .btns button {
-    all: unset;
-    margin-left: 5px;
-    height: 40px;
-    width: 40px;
-    background: #b8d7d9;
-    border-radius: 7px;
-    color: #fff;
-    cursor: pointer;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container .btns-box .btns button:nth-child(1),
-.container .btns-box .btns button:nth-child(3) {
-    background: none;
-    color: #45a69b;
-    cursor: pointer;
-}
-
-.container .btns-box .btns button:nth-child(1) {
-    position: relative;
-    left: -10px;
-}
-
-.container .btns-box .btns button:nth-child(3) {
-    position: relative;
-    left: 10px;
-}
 
 .coming-soon {
     display: flex;
@@ -647,6 +494,7 @@ section {
     max-width: 600px;
     height: 220px;
 }
+
 .coming-soon-box i {
     font-size: 3rem;
     color: #333;
@@ -759,7 +607,6 @@ section {
         font-size: 1.5rem;
     }
 }
-
 .portfolio-container h2, .photo-container h2 {
     margin: 20px 0 15px;
     text-align: center;
@@ -848,11 +695,6 @@ section {
     border-bottom: 2px solid #333;
 }
 
-@media(max-width: 768px){
-    .works-intro h1 {
-        font-size: 2rem;
-    }
-}
 
 .featured{
     width:85%;
@@ -1104,7 +946,7 @@ nav{
   background:#333;
 }
 
-.project-section {
+section{
     width:min(1100px,90%);
     margin:auto;
     padding:50px 0;
@@ -1119,7 +961,7 @@ nav{
     align-items:center;
 }
 
-.category {
+.category{
     color:#777;
     text-transform:uppercase;
     letter-spacing:2px;
@@ -1127,32 +969,32 @@ nav{
     margin-bottom:20px;
 }
 
-.hero h1 {
+.hero h1{
     font-size:2.5rem;
     line-height:1.15;
     margin-bottom:25px;
 }
 
-.subtitle {
+.subtitle{
     font-size:18px;
     color:#555;
     margin-bottom:30px;
 }
 
-.info {
+.info{
     display:flex;
     flex-wrap:wrap;
     gap:20px;
     color:#666;
 }
 
-.hero-image img {
+.hero-image img{
     width:100%;
     border-radius:16px;
     box-shadow:0 20px 40px rgba(0,0,0,.12);
 }
 
-.video-container {
+.video-container{
     margin-top:30px;
     position:relative;
     overflow:hidden;
@@ -1161,31 +1003,31 @@ nav{
     box-shadow:0 15px 35px rgba(0,0,0,.1);
 }
 
-.video-container iframe {
+.video-container iframe{
     position:absolute;
     inset:0;
     width:100%;
     height:100%;
 }
 
-h2 {
+h2{
     font-size:2rem;
     margin-bottom:30px;
 }
 
 .story p,
-.reflection p {
+.reflection p{
     font-size:17px;
     color:#555;
 }
 
-.tags {
+.tags{
     display:flex;
     flex-wrap:wrap;
     gap:15px;
 }
 
-.tags span {
+.tags span{
     padding:10px 18px;
     background:#111;
     color:white;
@@ -1193,11 +1035,11 @@ h2 {
     font-size:15px;
 }
 
-.button-section {
+.button-section{
     text-align:center;
 }
 
-.button {
+.button{
     display:inline-block;
     text-decoration:none;
     background:#111;
@@ -1207,7 +1049,7 @@ h2 {
     transition:.3s;
 }
 
-.button:hover {
+.button:hover{
     background:#444;
 }
 
@@ -1221,7 +1063,25 @@ h2 {
     font-size:2.2rem;
 }
 
-.project-section {
+section{
     padding:40px 0;
 }
+
+}
+
+.watch-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.video-btn:hover {
+    background: #555;
+    transform: translateY(-3px);
 }
