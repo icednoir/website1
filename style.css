@@ -95,7 +95,7 @@ li a:hover:hover::before {
     cursor: pointer;
 }
 
-section{ 
+.about { 
     min-height: 100vh;
     padding: 8rem 12%;
     width: 100%;
