@@ -96,15 +96,16 @@ li a:hover:hover::before {
 }
 
 section { 
-    min-height: 100vh;
-    padding: 8rem 12%;
-    width: 100%;
-    position: relative;
+    width:100%;
+    position:relative;
 }
 .about{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height:100vh;
+    padding:8rem 12%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .about .about-container{
     display: flex;
