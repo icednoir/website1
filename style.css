@@ -9,7 +9,7 @@
     /* outline: 1px solid red; */
 }
 
-header {
+.header {
     position: fixed;
     top: 1rem;
     left: 50%;
@@ -98,8 +98,8 @@ li a:hover:hover::before {
 }
 
 section { 
-    height: 100vh;
-    padding: 10rem 12%;
+    /* height: 100vh;
+    padding: 10rem 12%; */
     width: 100%;
     position: relative;
 
@@ -534,7 +534,7 @@ section {
 }
 
 @media(max-width: 1200px){
-    header {
+    .header {
        padding: 1rem 2rem;
        gap: 2rem; 
     }
@@ -547,14 +547,14 @@ section {
 }
 
 @media(max-width: 768px){
-    header {
+    .header {
         gap: 1rem;
         padding: 1rem 1rem;
     }
-    header .logo {
+    .header .logo {
         font-size: 1rem;
     }
-    header .btn-visit {
+    .header .btn-visit {
         display: none;
     }
     .info-box h3 {
@@ -581,7 +581,7 @@ section {
     }
 }
 @media(max-width: 600px){
-    header #menu-icon {
+    .header #menu-icon {
         display: block;
     }
     .info-box h3 {
