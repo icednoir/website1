@@ -1238,7 +1238,7 @@ section{
 
 .story-photo {
     width: min(1000px, 88%);
-    margin: 60px auto 0;
+    margin: 130px auto 0;
 }
 
 .story-photo img {
@@ -1397,7 +1397,7 @@ section{
 
     .story-photo {
         width: 90%;
-        margin-top: 40px;
+        margin-top: 110px;
     }
 
     .story-photo img {
