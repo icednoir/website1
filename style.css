@@ -1117,6 +1117,7 @@ section{
 
 .travel-feature {
     width: min(1100px, 90%);
+    height: auto;
     margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1156,7 +1157,7 @@ section{
     font-size: 18px;
     line-height: 1.7;
     color: #555;
-    margin-botton: 45px;
+    margin-bottom: 45px;
 }
 
 .travel-tags {
@@ -1208,6 +1209,7 @@ section{
 @media (max-width: 600px) {
     .travel-feature {
         width: 90%;
+        height: auto;
         margin: 70px auto;
         gap: 30px;
     }
