@@ -98,8 +98,8 @@ li a:hover:hover::before {
 }
 
 section { 
-    /* height: 100vh;
-    padding: 10rem 12%; */
+    height: 100vh;
+    padding: 10rem 12%;
     width: 100%;
     position: relative;
 
