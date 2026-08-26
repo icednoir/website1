@@ -1152,6 +1152,13 @@ section{
     margin-bottom: 25px;
 }
 
+.travel-content > p:not(.travel-category) {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+    margin-botton: 45px;
+}
+
 .travel-tags {
     display: flex;
     flex-wrap: wrap;
@@ -1214,7 +1221,7 @@ section{
         font-size: 2rem;
     }
 
-    .travel-content > p:not(travel-category) {
+    .travel-content > p:not(.travel-category) {
         font-size: 16px;
     }
 
