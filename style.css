@@ -1230,3 +1230,229 @@ section{
         text-align: center;
     }
 }
+
+.uzbekistan-story {
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.story-photo {
+    width: min(1200px, 92%);
+    margin: 80px auto 0;
+}
+
+.story-photo img {
+    display: block;
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.story-heading {
+    width: min(900px, 90%);
+    margin: 85px auto 0;
+    text-align: center;
+}
+
+.story-category {
+    margin: 0 0 25px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.story-heading h1 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp (3rem, 6vw, 5.8rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.045em;
+    color: #111;
+}
+
+.story-heading h1 span {
+    display: block;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.story-subheadline {
+    width: min(700px, 90%);
+    margin: 35px auto 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.story-meta {
+    margin-top: 25px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.story-content {
+    width: min(720px, 90%);
+    margin: 100px auto 0;
+}
+
+.story-content p {
+    margin: 0 0 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.95;
+    color: #333;
+}
+
+.story-content .first-paragraph::first-letter {
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 0.75;
+}
+
+.story-quote {
+    margin: 75px -40px;
+    padding: 40px;
+    border-left: 3px solid #111;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.55;
+    color: #222;
+}
+
+.story-ending {
+    margin-top: 100px;
+    padding-top: 70px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.story-ending p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #111;
+}
+
+.story-dots {
+    margin: 35px 0;
+    font-size: 20px;
+    letter-spacing: 8px;
+    color: #999;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 13px 25px;
+    background: #111;
+    color: white;
+}
+
+.back-home:hover {
+    background: #444;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 850px) {
+    .story-photo {
+        margin-top: 60px;
+    }
+
+    .story-photo img {
+        height: 500px;
+    }
+
+    .story-heading {
+        margin-top: 75px;
+    }
+
+    .story-content {
+        margin-top: 75px;
+    }
+
+    .story-quote {
+        margin-let: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .uzbekistan-story {
+        padding-bottom: 80px;
+    }
+
+    .story-photo {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .story-photo img {
+        height: 480px;
+        border-radius: 12px;
+    }
+
+    .story-heading {
+        width: 90%;
+        margin-top: 55px;
+    }
+
+    .story-category {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .story-heading h1 {
+        font-size: 2.6rem;
+        line-height: 1.08;
+    }
+
+    .story-heading h1 span {
+        margin-top: 5px;
+    }
+
+    .story-subheadline {
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+    .story-content {
+        width: 90%;
+        margin-top: 65px;
+    }
+
+    .story-content p {
+        font-size: 16px;
+        line-height: 1.85;
+    }
+
+    .story-content .first-paragraph::first-letter {
+        font-size: 4rem;
+    }
+
+    .story-quote {
+        margin: 55px 0;
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .story-ending {
+        margin-top: 70px;
+        padding-top: 50px;
+    }
+
+    .story-ending p {
+        font-size: 21px;
+    }
+    
