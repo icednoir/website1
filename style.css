@@ -1404,7 +1404,7 @@ section{
 
     .story-photo img {
         height: 55vh;
-        min-height: 380px;
+        min-height: 350px;
         max-height: 500px;
         border-radius: 12px;
     }
